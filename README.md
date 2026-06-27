@@ -91,12 +91,6 @@ Install the required libraries (`opencv-python`, `numpy`, `pygame`) using pip:
 pip install -r requirements.txt
 ```
 
-> [!TIP]
-> If you do not have a `requirements.txt` file yet, you can install them manually:
-> ```bash
-> pip install opencv-python numpy pygame
-> ```
-
 ### Step 4: Add Audio Asset
 
 Ensure you have an audio file named `alarm-sound.mp3` placed in the **root directory** of the project. The system requires this file for asynchronous hardware actuation.
